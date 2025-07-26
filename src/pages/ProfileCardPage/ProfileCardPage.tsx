@@ -7,21 +7,25 @@ const socials = [
 
 export const ProfileCardPage = () => {
   return (
-    <div className="flex flex-col gap-10 mt-50 w-85 mx-auto py-6 px-4 bg-white rounded-lg">
+    <div className="flex flex-col gap-10 mt-50 w-85 mx-auto py-6 px-4 bg-white rounded-lg shadow-sm">
       <div className="flex flex-col gap-6 items-center">
         <img src="/profile.png" className="w-16 rounded-full" />
         <div>
-          <h2>Sarah Dole</h2>
-          <p>Frontn End Engineer @ Microsoft</p>
+          <h2 className="text-xl font-medium">Sarah Dole</h2>
+          <p className="text-sm text-neutral-600">
+            Front End Engineer @ Microsoft
+          </p>
         </div>
-        <p>
+        <p className="text-neutral-600">
           I turn coffee into bugs which are fixed by someone else. Certified
           Stack Overflow and ChatGPT developer.
         </p>
       </div>
-      <div>
-        <button>Contact Me</button>
-        <div>
+      <div className="flex flex-col gap-6">
+        <button className="text-white bg-indigo-700 rounded-sm w-full py-2.5 shadow-sm">
+          Contact Me
+        </button>
+        <div className="flex justify-center gap-4">
           {socials.map((social) => (
             <button className="w-9 p-2">
               <img src={social.src} />
