@@ -33,8 +33,8 @@ export const ProfileCardPage = () => {
         </button>
         <div className="flex justify-center gap-4">
           {socials.map((social) => (
-            <button className="w-9 p-2">
-              <img src={social.src} />
+            <button className="p-2">
+              <img src={social.src} className="w-5" />
             </button>
           ))}
         </div>
