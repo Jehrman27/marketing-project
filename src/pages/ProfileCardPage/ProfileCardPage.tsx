@@ -1,7 +1,7 @@
 const socials = [
   { src: "github-fill.svg", link: "" },
-  { src: "instagram-fill.svg", link: "" },
   { src: "linkedin-box-fill.svg", link: "" },
+  { src: "instagram-fill.svg", link: "" },
   { src: "twitter-x-fill.svg", link: "" },
 ];
 
@@ -10,9 +10,9 @@ export const ProfileCardPage = () => {
     <div className="flex flex-col gap-10 mt-50 w-85 mx-auto py-6 px-4 bg-white rounded-lg shadow-sm">
       <div className="flex flex-col gap-6 items-center">
         <img src="/profile.png" className="w-16 rounded-full" />
-        <div>
+        <div className="flex flex-col gap-1">
           <h2 className="text-xl font-medium">Sarah Dole</h2>
-          <p className="text-sm text-neutral-600">
+          <p className="text-sm font-normal text-neutral-600">
             Front End Engineer @ Microsoft
           </p>
         </div>
