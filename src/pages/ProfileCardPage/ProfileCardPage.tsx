@@ -29,7 +29,7 @@ export const ProfileCardPage = () => {
       </div>
       <div className="flex flex-col gap-6">
         <button className="text-white bg-indigo-700 rounded-sm w-full py-2.5 shadow-sm">
-          Contact Me
+          Contact me
         </button>
         <div className="flex justify-center gap-4">
           {socials.map((social) => (
