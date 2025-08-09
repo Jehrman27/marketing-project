@@ -1,4 +1,16 @@
-export const TestimonialCard = () => {
+export type TestimonialCardProps = {
+  avatar: string;
+  name: string;
+  handle: string;
+  testimonial: string;
+};
+
+export const TestimonialCard = ({
+  avatar,
+  name,
+  handle,
+  testimonial,
+}: TestimonialCardProps) => {
   return (
     <>
       <div
@@ -10,20 +22,16 @@ export const TestimonialCard = () => {
       >
         <div className="flex">
           <img
-            src="profile.png"
+            src={avatar}
             alt="user's profile image"
             className="w-12 h-12 rounded-full"
           />
           <div className="pl-4 mb-4">
-            <h1 className="text-lg font-semibold">Sarah Dole</h1>
-            <h2 className="text-sm text-left text-neutral-600">@sarahdole</h2>
+            <h1 className="text-lg font-semibold">{name}</h1>
+            <h2 className="text-sm text-left text-neutral-600">{handle}</h2>
           </div>
         </div>
-        <p className="text-base text-left text-neutral-600">
-          I've been searching for high-quality abstract images for my design
-          projects, and I'm thrilled to have found this platform. The variety
-          and depth of creativity are astounding!
-        </p>
+        <p className="text-base text-left text-neutral-600">{testimonial}</p>
       </div>
     </>
   );
