@@ -27,7 +27,13 @@ export const ProfileCard = ({
   ].filter((social) => social.link && social.link.trim() !== "");
 
   return (
-    <div className="flex flex-col gap-10 mt-50 w-85 mx-auto py-6 px-4 bg-white rounded-lg shadow-sm">
+    <div
+      className="flex flex-col gap-10 w-85 py-6 px-4 bg-white rounded-lg shadow-sm"
+      style={{
+        boxShadow:
+          "0px 1px 2px 0 rgb(0 0 0 / 0.06), 0px 1px 3px 0 rgb(0 0 0 / 0.10)",
+      }}
+    >
       <div className="flex flex-col gap-6 items-center">
         <img src={avatar} className="w-16 rounded-full" />
         <div className="flex flex-col gap-1">
