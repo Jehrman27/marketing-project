@@ -28,7 +28,7 @@ export const ProfileCard = ({
 
   return (
     <div
-      className="flex flex-col gap-10 w-85 py-6 px-4 bg-white rounded-lg"
+      className="flex flex-col gap-10 w-85 py-6 px-4 bg-white rounded-lg shadow-sm"
       style={{
         boxShadow:
           "0px 1px 2px 0 rgb(0 0 0 / 0.06), 0px 1px 3px 0 rgb(0 0 0 / 0.10)",
