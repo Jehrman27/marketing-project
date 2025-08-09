@@ -1,5 +1,9 @@
 import { TestimonialCard } from "../../components/TestimonialCard/TestimonialCard";
 
 export const TestimonialCardPage = () => {
-  return <TestimonialCard />;
+  return (
+    <div className="flex justify-center mt-25">
+      <TestimonialCard />
+    </div>
+  );
 };
