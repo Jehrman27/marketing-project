@@ -3,7 +3,7 @@ import profileImage from "/profile.png";
 
 export const TestimonialCardPage = () => {
   return (
-    <div className="flex justify-center mt-25">
+    <div className="flex justify-center mt-50">
       <TestimonialCard
         avatar={profileImage}
         name="Sarah Dole"
