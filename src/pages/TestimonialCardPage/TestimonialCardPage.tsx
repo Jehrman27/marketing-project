@@ -1,3 +1,5 @@
+import { TestimonialCard } from "../../components/TestimonialCard/TestimonialCard";
+
 export const TestimonialCardPage = () => {
-  return <div>Testimonial Card Page</div>;
+  return <TestimonialCard />;
 };
