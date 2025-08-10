@@ -16,7 +16,11 @@ export const BlogCard = ({
 }: BlogCardProps) => {
   return (
     <div className="w-85 bg-white rounded-lg shadow-sm">
-      <img src={image} className="w-full h-72 object-cover rounded-t-lg" />
+      <img
+        src={image}
+        className="w-full h-72 object-cover rounded-t-lg"
+        alt="blog post cover image"
+      />
       <div className="flex flex-col gap-3 py-6 px-4">
         <div className="flex flex-col gap-2">
           <div className="w-fit text-sm font-normal text-green-700 bg-green-50 rounded-full py-0.5 px-2 border border-green-200">
@@ -27,7 +31,8 @@ export const BlogCard = ({
         <div className="flex flex-col gap-6">
           <p className="text-base font-medium text-neutral-600">{bodyText}</p>
           <button className="flex  items-center gap-1.5 text-indigo-700 text-base font-medium">
-            Read more <img src={ArrowRight} className="w-5 h-5" />
+            Read more{" "}
+            <img src={ArrowRight} className="w-5 h-5" alt="right arrow" />
           </button>
         </div>
       </div>
