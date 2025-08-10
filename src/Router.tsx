@@ -4,6 +4,7 @@ import { ProfileCardPage } from "./pages/ProfileCardPage/ProfileCardPage";
 import { Layout } from "./pages/Layout/Layout";
 import { TestimonialCardPage } from "./pages/TestimonialCardPage/TestimonialCardPage";
 import { BlogCardPage } from "./pages/BlogCardPage/BlogCardPage";
+import { HeroSectionSimplePage } from "./pages/HeroSectionSimplePage/HeroSectionSimplePage";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "profile-card",
         element: <ProfileCardPage />,
+      },
+      {
+        path: "hero-section-simple",
+        element: <HeroSectionSimplePage />,
       },
     ],
   },

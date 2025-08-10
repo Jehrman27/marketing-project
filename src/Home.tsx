@@ -9,6 +9,7 @@ function Home() {
         <Link to="/testimonial-card">Testimonial Card</Link>
         <Link to="/blog-card">Blog Card</Link>
         <Link to="/profile-card">Profile Card</Link>
+        <Link to="/hero-section-simple">Hero Section Simple</Link>
       </ul>
     </div>
   );
