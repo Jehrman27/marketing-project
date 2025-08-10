@@ -2,7 +2,7 @@ import { HeroSectionSimple } from "../../components/HeroSectionSimple/HeroSectio
 
 export const HeroSectionSimplePage = () => {
   return (
-    <div className="p-4 h-full">
+    <div className="p-4 h-screen">
       <HeroSectionSimple />
     </div>
   );
