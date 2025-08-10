@@ -1,4 +1,3 @@
-import BlogImage from "/blog-img.jpg";
 import ArrowRight from "/arrow-right-line.svg";
 
 export type BlogCardProps = {
