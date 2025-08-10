@@ -3,7 +3,7 @@ import BlogImage from "/blog-img.jpg";
 
 export const BlogCardPage = () => {
   return (
-    <div className="flex justify-center mt-50">
+    <div className="flex justify-center mt-30">
       <BlogCard
         image={BlogImage}
         badge="Interior"
