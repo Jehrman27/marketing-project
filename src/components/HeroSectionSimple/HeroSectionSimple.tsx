@@ -10,9 +10,9 @@ export const HeroSectionSimple = ({
   image,
 }: HeroSectionSimpleProps) => {
   return (
-    <div className="flex flex-col justify-center bg-white h-full w-full py-2 rounded-sm shadow-2xl">
+    <div className="flex flex-col justify-center bg-gradient-to-br from-[#f9fafb] to-[#edf0f3] h-full w-full py-2 rounded-sm shadow-2xl">
       <div className="flex flex-col py-12 px-3 gap-12 md:py-16 md:px-4 md:gap-8 lg:flex-row lg:py-24 lg:px-24 lg:items-center">
-        <div className="flex flex-col  gap-8 md:gap-16 lg:w-[980px]">
+        <div className="flex flex-col pb-2 gap-8 md:pb-0 md:gap-16 lg:w-[980px]">
           <div className="flex flex-col gap-4 md:gap-6">
             <h2 className="text-4xl font-semibold md:text-5xl lg:text-6xl">
               {headerText}
